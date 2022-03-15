@@ -1,0 +1,33 @@
+:root {
+
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Noto Sans KR', sans-serif; */
+}
+
+/* 태그 스타일 초기화 */
+h1, h2 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+dd {
+  margin-left: 0;
+}
