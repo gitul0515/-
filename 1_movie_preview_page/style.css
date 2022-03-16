@@ -9,6 +9,7 @@ body {
   margin: 0;
   height: 100vh;
   font-family: 'Noto Sans KR', sans-serif;
+  color: #000000;
 }
 
 /* 태그 스타일 초기화 */
@@ -39,8 +40,8 @@ dd {
   width: 1060px;
   height: 1170px;
   background-color: #F2F2F2;
-  border: 2px solid #c4c4c4;
-  border-radius: 10px;
+  border: 2px solid #BDBDBD;
+  border-radius: 15px;
   margin: 86px auto 135px;
   padding: 31px 28px;
 }
@@ -56,7 +57,6 @@ dd {
   font-weight: 700;
   line-height: 28px;
   letter-spacing: 0em;
-  color: #000000;
   margin-top: 10px;
 }
 
@@ -85,10 +85,76 @@ dd {
   font-weight: 900;
 }
 
+.movie-list__content {
+  background-color: #FFFFFF;
+  border: 2px solid #BDBDBD;
+  border-radius: 15px;
+  padding: 26px 27px 30px;
+}
+
+.content__card-list {
+  
+}
+
+.content__card-item {
+  width: 220px;
+  border: 1px solid #BDBDBD;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px #0000004D;
+  padding: 19px 20px 0;
+}
+
+.card-item__image {
+  display: block;
+  width: 180px;
+  height: 250px;
+  background: url(./image/movie_weniv.png) no-repeat center center;
+  background-size: cover;
+  border-radius: 10px;
+  border: 1px solid #BDBDBD;
+  margin-bottom: 11px;
+}
+
+.card-item__description {
+  margin-bottom: 18px;
+}
+
+.card-item__title {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 23px;
+  letter-spacing: 0em;
+  margin-bottom: 12px;
+}
+
+.card-item__detail {
+
+}
+
+.card-item__detail > div {
+  display: flex;
+}
+
+.card-item__detail > div > dt {
+  color: #828282;
+  font-size: 13px;
+  line-height: 19px;
+  margin-right: 5px;
+}
+
+.card-item__detail > div > dd {
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.card-item__footer {
+  background-color: #F2F2F2;
+}
+
 /* footer 영역 */
 .footer {
   width: 100%;
   height: 213px;
   background-color:#F2F2F2;
-
 }
